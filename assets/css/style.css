@@ -252,7 +252,7 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 80px;
+  padding-bottom: 150px;
 }
 .subscribe-heading{
   text-align: center;
@@ -306,6 +306,7 @@ header{
   max-width: 1145px;
   margin: 0 auto;
   background-color: #2727270D;
+
 }
 .client-part-heading{
   text-align: center;
@@ -372,6 +373,7 @@ footer{
   flex-direction: column;
   padding: 80px 373px;
   text-align: center;
+  margin-top: 100px;
 }
 .footer-title span{
     color: #E55473;
