@@ -307,7 +307,47 @@ header{
   display: flex;
   gap: 10px;
 }
-.insta-content{}
+.insta-content{
+  position: relative;
+}
+.insta-overlay i:hover{
+  color: #E55473;
+}
+.insta-overlay i{
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+.insta-content:hover .insta-overlay{
+  visibility: visible;
+  opacity: 1;
+  padding: 30px;
+}
+.insta-overlay{
+  bottom: 0;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
 .insta-content img{
   height: 325px;
 }
