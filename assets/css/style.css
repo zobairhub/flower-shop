@@ -138,6 +138,27 @@ header{
   margin: 0 auto;
   gap: 20px;
 }
+.tree-overlay>i:hover {
+  color: #E55473;
+}
+
+.tree-overlay>i {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+.tree1:hover .tree-overlay,.tree2:hover .tree-overlay, .tree3:hover .tree-overlay{
+  background-color: rgba(0,0,0,0.5);
+    visibility: visible;
+    opacity: 1;
+    padding: 20px 0px;
+}
 .tree1{
   width: 464px;
   height: 538px;
@@ -148,6 +169,22 @@ header{
   background-repeat: no-repeat;
   background-size: auto;
   background-position: bottom;
+}
+.tree-overlay{
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
 }
 /* .tree1 > img,.tree2 > img , .tree3 > img{ */
   /* position: absolute; */
