@@ -157,7 +157,7 @@ header{
   background-color: rgba(0,0,0,0.5);
     visibility: visible;
     opacity: 1;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 .tree1{
   width: 464px;
@@ -328,7 +328,7 @@ header{
 .insta-content:hover .insta-overlay{
   visibility: visible;
   opacity: 1;
-  padding: 30px;
+  padding: 20px;
 }
 .insta-overlay{
   bottom: 0;
